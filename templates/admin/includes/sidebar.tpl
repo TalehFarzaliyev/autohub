@@ -17,39 +17,14 @@
 									</ul>
 								</li>
 								<li {if $controller eq 'page'}class="active"{/if}><a href="{site_url_multi('admin/page')}"><i class="icon-files-empty2"></i> <span>{$text.common.common_sidebar_menu_page}</span></a></li>
-								<li {if $controller eq 'faq'}class="active"{/if}><a href="{site_url_multi('admin/faq')}"><i class="icon-files-empty2"></i> <span>{$text.common.common_sidebar_menu_faq}</span></a></li>
-								<li {if $controller eq 'slider'}class="active"{/if}><a href="{site_url_multi('admin/slider')}"><i class="icon-files-empty2"></i> <span>{$text.common.common_sidebar_menu_slider}</span></a></li>
-								<li {if $controller eq 'hotel'}class="active"{/if}>
-									<a href="#"><i class="icon-menu7"></i> <span>{$text.common.common_sidebar_menu_hotel_managment}</span></a>
-									<ul>
-										<li><a href="{site_url_multi('admin/hotel')}">{$text.common.common_sidebar_menu_hotel} </a></li>
-										<li><a href="{site_url_multi('admin/attribute')}">{$text.common.common_sidebar_menu_attribute} </a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#"><i class="icon-menu7"></i> <span>{$text.common.common_sidebar_menu_tour_managment}</span></a>
-									<ul>
-										<li {if $controller eq 'tour'}class="active"{/if}><a href="{site_url_multi('admin/tour')}">{$text.common.common_sidebar_menu_tours}</a></li>
-										<li><a href="{site_url_multi('admin/tour_attribute')}">{$text.common.common_sidebar_menu_attribute} </a></li>
-										<li {if $controller eq 'tour_category'}class="active"{/if}><a href="{site_url_multi('admin/tour_category')}">{$text.common.common_sidebar_menu_tour_category}</a></li>
-										<li {if $controller eq 'country'}class="active"{/if}><a href="{site_url_multi('admin/country')}">{$text.common.common_sidebar_menu_tour_country}</a></li>										
-									</ul>
-								</li>
-								<li>
-									<a href="#"><i class="icon-menu7"></i> <span>{$text.common.common_sidebar_menu_booking_managment}</span></a>
-									<ul>
-										<li {if $controller eq 'booking'}class="active"{/if}><a href="{site_url_multi('admin/booking/tour_booking')}">{$text.common.common_sidebar_menu_tour_booking}</a></li>
-										<!-- <li {if $controller eq 'booking'}class="active"{/if}><a href="{site_url_multi('admin/booking/hotel_booking')}">{$text.common.common_sidebar_menu_hotel_booking}</a></li> -->									
-									</ul>
-								</li>
-								<li {if $controller eq 'service'}class="active"{/if}><a href="{site_url_multi('admin/service')}"><i class="icon-files-empty2"></i> <span>{$text.common.common_sidebar_menu_service}</span></a></li>
-								<li {if $controller eq 'azerbaijan'}class="active"{/if}><a href="{site_url_multi('admin/azerbaijan')}"><i class="icon-files-empty2"></i> <span>{$text.common.common_sidebar_menu_azerbaijan}</span></a></li>
+								<li {if $controller eq 'faq'}class="active"{/if}><a href="{site_url_multi('admin/faq')}"><i class="icon-eject"></i> <span>{$text.common.common_sidebar_menu_faq}</span></a></li>
+								<li {if $controller eq 'slider'}class="active"{/if}><a href="{site_url_multi('admin/slider')}"><i class="icon-terminal"></i> <span>{$text.common.common_sidebar_menu_slider}</span></a></li>
 
 								<li>
 									<a href="#"><i class="icon-magazine"></i> <span>{$text.common.common_sidebar_menu_news_management}</span></a>
 									<ul>
-										<li {if $controller eq 'news'}class="active"{/if}><a href="{site_url_multi('admin/news')}">{$text.common.common_sidebar_menu_news}</a></li>
-										<li {if $controller eq 'category'}class="active"{/if}><a href="{site_url_multi('admin/category')}">{$text.common.common_sidebar_menu_category}</a></li>
+										<li {if $controller eq 'news'}class="active"{/if}><a href="{site_url_multi('admin/news')}"><i class="icon-blog"></i>{$text.common.common_sidebar_menu_news}</a></li>
+										<li {if $controller eq 'category'}class="active"{/if}><a href="{site_url_multi('admin/category')}"><i class="icon-pencil"></i>{$text.common.common_sidebar_menu_category}</a></li>
 									</ul>
 								</li>
 								<li {if $controller eq 'filemanager'}class="active"{/if}><a href="{site_url_multi('admin/filemanager')}"><i class="icon-box"></i> <span>{$text.common.common_sidebar_menu_filemanager}</span></a></li>							
@@ -61,6 +36,7 @@
 									</ul>
 								</li>
 								<li {if $controller eq 'setting'}class="active"{/if}><a href="{site_url_multi('admin/setting')}"><i class="icon-cog"></i> <span>{$text.common.common_sidebar_menu_setting}</span></a></li>
+{*								<li {if $controller eq 'language'}class="active"{/if}><a href="{site_url_multi('admin/language')}"><i class="icon-chrome"></i> <span>{$text.common.common_sidebar_menu_language}</span></a></li>*}
 
 								<!-- /main -->
 

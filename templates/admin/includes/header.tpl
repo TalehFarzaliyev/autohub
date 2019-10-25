@@ -63,7 +63,7 @@
 	<!-- Main navbar -->
 	<div class="navbar navbar-default navbar-fixed-top header-highlight">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="{site_url('admin/dashboard')}"><img src="{base_url('templates/admin/assets/images/logo.png')}" alt=""></a>
+			<a class="navbar-brand" href="{site_url('admin/dashboard')}"></a>
 
 			<ul class="nav navbar-nav visible-xs-block">
 				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
@@ -89,7 +89,6 @@
 					</a>
 
 					<ul class="dropdown-menu dropdown-menu-right">
-						<li><a href="{site_url_multi('admin/user/profile/')}{$user.username}"><i class="icon-user-plus"></i> {$text.common.common_header_user_profile}</a></li>
 						<li class="divider"></li>
 						<li><a href="{site_url_multi('admin/authentication/logout')}"><i class="icon-switch2"></i> {$text.common.common_header_user_logout}</a></li>
 					</ul>

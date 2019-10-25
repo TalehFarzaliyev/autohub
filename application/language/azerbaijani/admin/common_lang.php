@@ -68,7 +68,7 @@ $lang['common_header_user_logout'] 						= 'Logout';
 $lang['common_breadcrumb_home'] 						= 'Home';
 
 //Footer
-$lang['common_footer_copyright'] 						= '&copy; %s. <a href="https://webcoder.az">Web Coder Agency</a> Version: %s';
+$lang['common_footer_copyright'] 						= '&copy; %s. <a href="https://autohub.az">AutoHub</a> Version: %s';
 $lang['common_footer_backtotop'] 						= 'Back to top';
 $lang['common_footer_elapsed_time'] 					= 'Elapsed time:';
 $lang['common_footer_memory_usage'] 					= 'Memory usage:';
