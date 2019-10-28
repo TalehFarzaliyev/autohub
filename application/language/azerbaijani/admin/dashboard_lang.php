@@ -2,4 +2,4 @@
 
 
 $lang['dashboard_index_title'] 				= 'Dashboard';
-$lang['dashboard_index_description'] 		= 'Web Coderin Admin Paneli';
+$lang['dashboard_index_description'] 		= 'Autohub Admin Panel';

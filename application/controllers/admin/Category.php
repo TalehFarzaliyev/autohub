@@ -332,7 +332,7 @@ class Category extends Admin_Controller {
 				'class' 		=> 'bootstrap-select',
 				'data-style' 	=> 'btn-default btn-xs',
 				'data-width'	=> '100%',
-				'options'		=> [$this->data['text']['common']['common_disable'], $this->data['text']['common']['common_enable']],				
+				'options'		=> [$this->data['text']['common']['common_disable'], $this->data['text']['common']['common_enable']],
 		        'selected'      => set_value('status'),
 		        'validation'	=> [
 	                'rules' => 'required'
@@ -369,18 +369,6 @@ class Category extends Admin_Controller {
 				'formaction'=> current_url()
 			]
 		];
-
-		// $this->data['buttons'][] = [
-		// 	'type'		=> 'button',
-		// 	'text'		=> $this->data['text']['common']['common_form_button_save_exit'],
-		// 	'href'		=> site_url($this->directory.$this->controller.'/delete'),
-		// 	'class'		=> 'btn btn-success btn-labeled heading-btn',
-		// 	'id'		=> '',
-		// 	'icon'		=> 'icon-floppy-disks',
-		// 	'additional'=> [
-		// 		'type'	=> 'submit'
-		// 	]
-		// ];
 
 		$this->data['buttons'][] = [
 			'type'		=> 'button',
@@ -449,7 +437,7 @@ class Category extends Admin_Controller {
 						'id'       			=> 'input-image',
 						'name'          	=> 'image',
 				        'value'         	=> (set_value('image')) ? set_value('image') : $this->data['general']->image,
-				        'src'        		=> (set_value('image')) ? $this->Model_tool_image->resize(set_value('image'), 200, 200) : $this->Model_tool_image->resize($this->data['general']->image, 200, 200),
+				        'src'        		=> (set_value('image')) ? $this->Model_tool_image->resize($this->data['general']->image, 200, 200) : $this->Model_tool_image->resize('catalog/nophoto.png', 200, 200),
 					    'label'				=> $this->data['text'][$this->controller][$this->controller.'_form_label_image'],
 				        'placeholder'		=> $this->Model_tool_image->resize('catalog/nophoto.png', 200, 200),
 				        'validation'		=> [
@@ -503,51 +491,6 @@ class Category extends Admin_Controller {
 						    'validation'	=> [
 				                'rules' => 'required'
 				            ]
-						],						
-						'description' => [
-							'property'		=> 'textarea',
-							'name'          => 'translation['.$language->id.'][description]',
-					        'class'			=> 'form-control editor',
-					        'value'         => (set_value('translation['.$language->id.'][description]')) ? set_value('translation['.$language->id.'][description]') : $this->data['translation'][$language->id]['description'],
-					        'label'			=> $this->data['text'][$this->controller][$this->controller.'_form_label_description'],
-					        'placeholder'	=> $this->data['text'][$this->controller][$this->controller.'_form_placeholder_description'],
-					        'validation'	=> [
-				                'rules' => ''
-				            ]
-						],
-						'meta_title' => [
-							'property'		=> 'input',
-							'name'          => 'translation['.$language->id.'][meta_title]',
-					        'class'			=> 'form-control',
-					        'value'         => (set_value('translation['.$language->id.'][meta_title]')) ? set_value('translation['.$language->id.'][meta_title]') : $this->data['translation'][$language->id]['meta_title'],
-					        'label'			=> $this->data['text'][$this->controller][$this->controller.'_form_label_meta_title'],
-					        'placeholder'	=> $this->data['text'][$this->controller][$this->controller.'_form_placeholder_meta_title'],
-					        'validation'	=> [
-				                'rules' 	=> ''
-				        	]
-						],
-						'meta_description' => [
-							'property'		=> 'textarea',
-							'name'          => 'translation['.$language->id.'][meta_description]',
-					        'class'			=> 'form-control',
-					        'value'         => (set_value('translation['.$language->id.'][meta_description]')) ? set_value('translation['.$language->id.'][meta_description]') : $this->data['translation'][$language->id]['meta_description'],
-					        'label'			=> $this->data['text'][$this->controller][$this->controller.'_form_label_meta_description'],
-					        'placeholder'	=> $this->data['text'][$this->controller][$this->controller.'_form_placeholder_meta_description'],
-					        'validation'	=> [
-				                'rules' => ''
-				        	]
-
-						],
-						'meta_keyword' => [
-							'property'		=> 'input',
-							'name'          => 'translation['.$language->id.'][meta_keyword]',
-					        'class'			=> 'form-control',
-					        'value'         => (set_value('translation['.$language->id.'][meta_keyword]')) ? set_value('translation['.$language->id.'][meta_keyword]') : $this->data['translation'][$language->id]['meta_keyword'],
-					        'label'			=> $this->data['text'][$this->controller][$this->controller.'_form_label_meta_keyword'],
-					        'placeholder'	=> $this->data['text'][$this->controller][$this->controller.'_form_placeholder_meta_keyword'],
-					        'validation'	=> [
-				                'rules' => ''
-				        	]
 						],
 					];
 
@@ -571,17 +514,6 @@ class Category extends Admin_Controller {
 						'formaction'=> current_url()
 					]
 				];
-
-				// $this->data['buttons'][] = [
-				// 	'type'		=> 'button',
-				// 	'text'		=> $this->data['text']['common']['common_form_button_save_exit'],
-				// 	'class'		=> 'btn btn-success btn-labeled heading-btn',
-				// 	'id'		=> 'save_exit',
-				// 	'icon'		=> 'icon-floppy-disks',
-				// 	'additional'=> [
-				// 		'type'	=> 'submit'
-				// 	]
-				// ];
 
 				$this->data['buttons'][] = [
 					'type'		=> 'button',
@@ -616,10 +548,6 @@ class Category extends Admin_Controller {
 	            			'lang_id'						=> $lang_id,
 	            			'name'							=> $value['name'],
 	            			'slug'							=> slug($value['name'], 'dash', true),
-	            			'description'					=> $value['description'],
-	            			'meta_title'					=> $value['meta_title'],
-	            			'meta_description'				=> $value['meta_description'],
-	            			'meta_keyword'					=> $value['meta_keyword'],
 	            		];
 
 	            		$this->{$this->model}->insert_translation($translation);
@@ -642,7 +570,6 @@ class Category extends Admin_Controller {
 			show_404();
 		}
 	}
-
 
 	public function delete($id = false)
 	{

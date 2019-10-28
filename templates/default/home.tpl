@@ -5,7 +5,7 @@
                 <div class="post-wrapper post-grid-1 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
                         <a href="#">
-                            <img class="entry-thumb" src="images/slider/slide-06.jpg" alt="">
+                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-06.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-info">
@@ -26,7 +26,7 @@
                 <div class="post-wrapper post-grid-2 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
                         <a href="#">
-                            <img class="entry-thumb" src="images/slider/slide-07.jpg" alt="">
+                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-07.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-info">
@@ -49,7 +49,7 @@
                 <div class="post-wrapper post-grid-3 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
                         <a href="#">
-                            <img class="entry-thumb-middle" src="images/slider/slide-08.jpg" alt="">
+                            <img class="entry-thumb-middle" src="{base_url('templates/default/assets/')}images/slider/slide-08.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-info">
@@ -72,7 +72,7 @@
                 <div class="post-wrapper post-grid-4 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
                         <a href="#">
-                            <img class="entry-thumb" src="images/slider/slide-09.jpg" alt="">
+                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-09.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-info">
@@ -93,7 +93,7 @@
                 <div class="post-wrapper post-grid-5 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
                         <a href="#">
-                            <img class="entry-thumb" src="images/slider/slide-10.jpg" alt="">
+                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-10.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-info">

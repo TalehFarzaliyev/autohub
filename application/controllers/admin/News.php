@@ -342,15 +342,6 @@ class News extends Admin_Controller {
 			        'placeholder'	=> $this->data['text'][$this->controller][$this->controller.'_form_placeholder_slug'],
 				    'validation'	=> ['rules' => '']
 				],
-				'name_text' => [
-					'property'		=> 'input',
-					'name'          => 'translation['.$language->id.'][name_text]',
-			        'class'			=> 'form-control',
-			        'value'         => set_value('translation['.$language->id.'][name_text]'),
-			        'label'			=> $this->data['text'][$this->controller][$this->controller.'_form_label_name_text'],
-			        'placeholder'	=> $this->data['text'][$this->controller][$this->controller.'_form_placeholder_name_text'],
-				    'validation'	=> ['rules' => '']
-				],
 				'desc_text' => [
 					'property'		=> 'textarea',
 					'name'          => 'translation['.$language->id.'][desc_text]',
@@ -454,20 +445,6 @@ class News extends Admin_Controller {
 	                'rules' => ''
 	        	]
 			],
-			'notification'	=> [		    	
-				'property'		=> 'dropdown',
-				'name'			=> 'notification',
-				'id'			=> 'notification',
-				'label'			=> $this->data['text'][$this->controller][$this->controller.'_form_label_notification'],
-				'class' 		=> 'bootstrap-select',
-				'data-style' 	=> 'btn-default btn-xs',
-				'data-width'	=> '100%',
-				'options'		=> [$this->data['text']['news']['news_form_label_disable'],$this->data['text']['news']['news_form_label_enable']],				
-				'selected'      => set_value('notification'),
-				'validation'	=> [
-					'rules' => 'required'
-				]
-			],
 		];
 		// Images fields
 		if ($this->input->post('images'))
@@ -517,18 +494,6 @@ class News extends Admin_Controller {
 			]
 		];
 
-		// $this->data['buttons'][] = [
-		// 	'type'		=> 'button',
-		// 	'text'		=> $this->data['text']['common']['common_form_button_save_exit'],
-		// 	'href'		=> site_url($this->directory.$this->controller.'/delete'),
-		// 	'class'		=> 'btn btn-success btn-labeled heading-btn',
-		// 	'id'		=> '',
-		// 	'icon'		=> 'icon-floppy-disks',
-		// 	'additional'=> [
-		// 		'type'	=> 'submit'
-		// 	]
-		// ];
-
 		$this->data['buttons'][] = [
 			'type'		=> 'button',
 			'text'		=> $this->data['text']['common']['common_form_button_reset'],
@@ -566,7 +531,6 @@ class News extends Admin_Controller {
 						$this->{$this->model}->insert_images($image_data);
 					}
 				}
-
 				foreach ($this->input->post('videos') as $video)
                 {
 					if(!empty($video))
@@ -578,7 +542,6 @@ class News extends Admin_Controller {
 						$this->{$this->model}->insert_videos($video_data);
 					}
 				}
-
 				
             	$categories = $this->input->post('category');
             	foreach ($categories as $category)
@@ -593,7 +556,6 @@ class News extends Admin_Controller {
             			$this->controller.'_id'		=> ${$this->controller.'_id'},
             			'lang_id'					=> $lang_id,
             			'name'						=> $value['name'],
-            			'name_text'					=> $value['name_text'],
             			'slug'						=> $value['slug'],
             			'description'				=> $value['description'],
             			'desc_text'					=> $value['desc_text'],
@@ -603,16 +565,6 @@ class News extends Admin_Controller {
             		];
 
             		$this->{$this->model}->insert_translation($translation);
-				}
-				
-				if((int)$this->input->post('notification') && (int)$this->input->post('status'))
-				{
-					$data = [
-						'title'		=>	$this->input->post('translation')['2']['name'],
-						'message'	=>	$this->input->post('translation')['2']['description'],
-						'body'		=>	${$this->controller.'_id'}
-					];
-					$this->send_notification('2',$data);
 				}
 
             	redirect(site_url_multi($this->directory.$this->controller));

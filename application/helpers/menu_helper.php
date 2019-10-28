@@ -19,21 +19,21 @@ if(!function_exists('get_menu_by_id'))
                 $menu_row   = $query->row();
                 $items      = $CI->Menu_model->get_items($menu_row->id, $CI->data['current_lang_id'], 1);
                 $CI->menu_generator->set_items($items);
-                           
-                $config = [
-                    'nav_tag_open'              => $menu_row->nav_tag_open,
-                    'nav_tag_close'             => $menu_row->nav_tag_close,
-                    'item_tag_open'             => $menu_row->item_tag_open,
-                    'item_tag_close'            => $menu_row->item_tag_close,
-                    'parent_tag_open'           => $menu_row->parent_tag_open,
-                    'parent_tag_close'          => $menu_row->parent_tag_close,
-                    'parentl1_tag_open'         => $menu_row->parentl1_tag_open,
-                    'parentl1_tag_close'        => $menu_row->parentl1_tag_close,
-                    'parent_anchor'             => $menu_row->parent_anchor,
-                    'children_tag_open'         => $menu_row->children_tag_open,
-                    'children_tag_close'        => $menu_row->children_tag_close,
-                    'parentl1_anchor'           => $menu_row->parentl1_anchor
-                ];
+
+                $config["nav_tag_open"]          = '<ul class="nav navbar-nav">';
+                $config["nav_tag_close"]         = '</ul>';
+                $config["item_tag_open"]         = '<li>';
+                $config["item_tag_close"]        = '</li>';
+                $config["parent_tag_open"]       = '<li class="dropdown">';
+                $config["parent_tag_close"]      = '</li>';
+                $config["parent_anchor_tag"]     = '<a href="%s" class="dropdown-toggle category09" data-toggle="dropdown">%s<span class="pe-7s-angle-down"></span></a>';
+                $config["children_tag_open"]     = '<ul class="dropdown-menu menu-slide">';
+                $config["children_tag_close"]    = '</ul>';
+                $config["menu_id"]               = 'id';
+                $config["menu_label"]            = 'name';
+                $config["menu_key"]              = 'slug';
+                $config["menu_parent"]           = 'parent';
+                $config["menu_order"]            = 'order';
 
                 $CI->menu_generator->initialize($config);
                 

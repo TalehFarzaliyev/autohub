@@ -10,42 +10,17 @@ $route['^(\w{2})/admin']				= 'admin/dashboard';
 $route['admin/(.*)$'] 					= 'admin/$1';
 $route['^(\w{2})/admin/(.*)$'] 			= 'admin/$2';
 
-// $route['^(\w{2})/about']				= 'about';
-$route['^(\w{2})/azerbaijan']			= 'azerbaijan';
-$route['^(\w{2})/contact']				= 'contact';
 
-$route['^(\w{2})/tours']				= 'tour';
-$route['^(\w{2})/catalog']				= 'tour/catalog';
+$route['kontakt']				        = 'page/contact';
+$route['haqqimizda']				    = 'page/about';
 
-
-$route['tours/book/(:any)']		        = 'tour/booking/$1';
-$route['^(\w{2})/tour/book']		    = 'tour/booking_tour';
-
-$route['^(\w{2})/tours/book/(:any)']	= 'tour/booking/$2';
-$route['^(\w{2})/tours/all']			= 'tour/all';
-$route['tours/(:any)']		        	= 'tour/view/$1';
-$route['^(\w{2})/tours/(:any)']			= 'tour/view/$2';
-
-$route['^(\w{2})/hotels']				= 'hotel';
-$route['hotels/(:any)']		        	= 'hotel/view/$1';
-$route['^(\w{2})/hotels/(:any)']		= 'hotel/view/$2';
 $route['^(\w{2})/blog']				    = 'blog';
-$route['^(\w{2})/blog/last']			= 'blog/last';
-$route['^(\w{2})/services']				= 'service';
-
-$route['blog/(:any)']		        	= 'blog/view/$1';
-$route['^(\w{2})/blog/(:any)']			= 'blog/view/$2';
-
-
-// $route['catalog/ajax'] 					= 'catalog/ajax';
-// $route['^(\w{2})/catalog/ajax']			= 'catalog/ajax';
-
-// $route['category/(:any)']		        = 'category/index/$1';
-// $route['^(\w{2})/category/(:any)']		= 'category/index/$2';
+$route['kateqoriya/(:any)']             = 'blog/category/$1';
+$route['^(\w{2})/kateqoriya/(:any)']    = 'blog/category/$2';
+$route['xeber/(:any)']		        	= 'blog/view/$1';
+$route['^(\w{2})/xeber/(:any)']			= 'blog/view/$2';
 
 
-// $route['tours/(:num)']		        = 'tours/view/$1';
-// $route['^(\w{2})/tours/(:num)']		= 'tours/view/$2';
 
 $route['^(\w{2})/authentication/(:any)']= 'authentication/$2';
 

@@ -7,14 +7,6 @@ class Blog extends Site_Controller {
 	{
 		parent::__construct();
 		// Calendar //
-			$this->load->library('calendar');
-			$this->load->config('calendar', TRUE);
-			$this->calendar->template = $this->config->item('calendar');
-			$this->data['month'] = date('F');
-	    	$this->data['next_month'] = date('F', strtotime('+1 month'));
-	    	$this->data['prev_month'] = date('F', strtotime('-1 month'));
-			$this->data['calendar'] = $this->calendar->generate();
-		// Calendar //
 		$this->load->model('News_model');
 		$this->load->model('Category_model');
 		$this->data['categories'] = $this->Category_model->get_rows(['name', 'slug'], ['status' => 1, 'lang_id' => $this->data['current_lang_id']], ['column' => 'created_at', 'order' => 'ASC']);
@@ -122,7 +114,6 @@ class Blog extends Site_Controller {
 		if($slug)
 		{
 			$news = $this->News_model->get_rows(['id', 'name', 'name_text', 'slug', 'description', 'desc_text', 'image', 'view', 'created_at'], ['status' => 1, 'lang_id' => $this->data['current_lang_id'], 'slug' => $slug]);
-
 			$this->data['last_news'] = $this->News_model->get_rows(['name', 'slug', 'description', 'image', 'created_at'], ['status' => 1, 'lang_id' => $this->data['current_lang_id']], ['column' => 'created_at', 'order' => 'DESC', 'limit' => '8'], []);
 			
 			if($news)
@@ -161,9 +152,9 @@ class Blog extends Site_Controller {
 					}
 				}
 
-				//echo "<pre>";$this->data['title'] = $news[0]['name'];
-				//print_r($this->data['news']); die();
-				$this->render('blog-single');
+//				echo "<pre>";$this->data['title'] = $news[0]['name'];
+//				print_r($this->data['news']); die();
+				$this->render('details');
 			}
 			else
 			{

@@ -285,3 +285,53 @@ ERROR - 2019-10-26 03:01:02 --> 404 Page Not Found: Images/category
 ERROR - 2019-10-26 03:01:02 --> 404 Page Not Found: Images/category
 ERROR - 2019-10-26 03:01:02 --> 404 Page Not Found: Images/slider-widget-3.jpg
 ERROR - 2019-10-26 03:01:02 --> 404 Page Not Found: Templates/default
+ERROR - 2019-10-26 03:09:59 --> 404 Page Not Found: admin/Faq/index
+ERROR - 2019-10-26 03:09:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-10-26 03:10:08 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:08 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:08 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:08 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:29 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:29 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:29 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:29 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:31 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:31 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:31 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:31 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:39 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:39 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:39 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:10:39 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:05 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:05 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:05 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:05 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:06 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:06 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:06 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:06 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:10 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:10 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:10 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:10 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:13 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:13 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:13 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:13 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:30 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:30 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:30 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:30 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:33 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:33 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:33 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:33 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:53 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:53 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:53 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:53 --> Severity: Notice --> Undefined index: page C:\wamp64\www\autohub\templates_c\c4aacf081f5c8e93db7bd2720be17391e1e98724_0.file.index.tpl.php 86
+ERROR - 2019-10-26 03:11:56 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\autohub\application\controllers\admin\Menu_items.php 58
+ERROR - 2019-10-26 03:11:56 --> Severity: Notice --> Undefined index: menu C:\wamp64\www\autohub\templates_c\febe7602e86f219d331ba308df492ce4221f7737_0.file.index.tpl.php 62
+ERROR - 2019-10-26 03:11:56 --> Severity: Notice --> Undefined index: menu C:\wamp64\www\autohub\templates_c\febe7602e86f219d331ba308df492ce4221f7737_0.file.index.tpl.php 62
+ERROR - 2019-10-26 03:11:56 --> Severity: Notice --> Undefined index: menu C:\wamp64\www\autohub\templates_c\febe7602e86f219d331ba308df492ce4221f7737_0.file.index.tpl.php 62

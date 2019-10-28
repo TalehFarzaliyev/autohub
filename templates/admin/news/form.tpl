@@ -49,16 +49,6 @@
 							<div class="tab-pane active" id="{$language->slug}">									
 								<div class="panel-body">
 									<fieldset class="content-group">
-
-										<div class="form-group">
-											<label class="control-label col-md-2">Aktiv</label>
-											<div class="col-md-10">
-												<div class="checkbox checkbox-switch">
-													<input type="checkbox" name="translation[{$language->id}][status]" data-off-color="danger"  data-on-color="success" data-on-text="Aktiv" data-off-text="Deaktiv" class="switch" {if $language->default eq 1}checked="checked"{/if}>
-												</div>
-											</div>
-										</div>
-										
 										{foreach from=$form_field.translation[{$language->id}] key=key item=value}
 										<div class="form-group {if form_error($form_field.translation[{$language->id}][{$key}].name)}has-error{/if}">
 											{form_label($form_field.translation[{$language->id}][{$key}].label, $key, ['class' => 'control-label col-md-2'])}
