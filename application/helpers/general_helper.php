@@ -2,6 +2,39 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
+ * Debug data
+ *
+ * @param array $array
+ * @return print data
+ */
+
+if (!function_exists('debug_data'))
+{
+    function debug_data(array $array)
+    {
+        echo "<pre>";
+        print_r($array);
+        echo "</pre>";
+    }
+}
+
+if (!function_exists('partition')) {
+    function partition($list, $p)
+    {
+        $listlen = count($list);
+        $partlen = floor($listlen / $p);
+        $partrem = $listlen % $p;
+        $partition = array();
+        $mark = 0;
+        for ($px = 0; $px < $p; $px++) {
+            $incr = ($px < $partrem) ? $partlen + 1 : $partlen;
+            $partition[$px] = array_slice($list, $mark, $incr);
+            $mark += $incr;
+        }
+        return $partition;
+    }
+}
+/**
  * link the css files 
  * 
  * @param array $array
