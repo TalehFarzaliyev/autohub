@@ -9,7 +9,7 @@ class Menu_generator {
 	 *
 	 * @var string
 	 */
-	private $nav_tag_open             = '<ul>';
+	private $nav_tag_open             = '<ul id="mobile" class="main-menu  hidden-xs">';
 
 	/**
 	 * Closing tag of the navigation menu
@@ -65,7 +65,7 @@ class Menu_generator {
 	 *
 	 * @var string
 	 */
-	private $parentl1_tag_open        = '';
+	private $parentl1_tag_open        = '<li>';
 
 	/**
 	 * Closing tag of the menu item level one that has children
@@ -73,7 +73,7 @@ class Menu_generator {
 	 *
 	 * @var string
 	 */
-	private $parentl1_tag_close       = '';
+	private $parentl1_tag_close       = '</li>';
 
 	/**
 	 * Anchor tag of the menu item level one that has children
@@ -81,7 +81,7 @@ class Menu_generator {
 	 *
 	 * @var string
 	 */
-	private $parentl1_anchor          = '';
+	private $parentl1_anchor          = '<a href="#">%s</a>';
 
 	/**
 	 * Opening tag of the children menu / sub menu.
@@ -89,7 +89,7 @@ class Menu_generator {
 	 *
 	 * @var string
 	 */
-	private $children_tag_open        = '<ul>';
+	private $children_tag_open        = '<ul class="sub-menu">';
 
 	/**
 	 * Closing tag of the children menu / sub menu.

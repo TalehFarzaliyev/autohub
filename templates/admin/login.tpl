@@ -53,7 +53,7 @@
 					{form_open()}
 						<div class="panel panel-body login-form">
 							<div class="text-center">
-								<img src="{base_url('templates/admin/assets/images/logo_dark.png')}">
+
 								<h5 class="content-group">Login to your account <small class="display-block">Enter your credentials below</small></h5>
 							</div>
 

@@ -54,7 +54,7 @@ class Menu_items_model extends Main_Model
             SELECT a.id, a.status, b.name, b.slug, b.lang_id
             FROM ".$this->table."  a
             INNER JOIN wc_menu_items_translation b ON a.id = b.menu_items_id
-            WHERE a.status = 1 AND b.lang_id = 1 AND parent = 0
+            WHERE a.status = 1 AND b.lang_id = 2 AND parent = 0
             ORDER BY a.id DESC
         ");
 
