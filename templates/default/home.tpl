@@ -130,7 +130,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_01.jpg" alt="">
+                                        <img class="img-responsive" src="{base_url('templates/default/assets/')}images/recent_news_01.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -157,7 +157,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_02.jpg" alt="">
+                                        <img class="img-responsive" src="{base_url('templates/default/assets/')}images/recent_news_02.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -184,7 +184,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_03.jpg" alt="">
+                                        <img class="img-responsive" src="{base_url('templates/default/assets/')}images/recent_news_03.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -214,7 +214,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_04.jpg" alt="">
+                                        <img class="img-responsive" src="{base_url('templates/default/assets/')}images/recent_news_04.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -240,7 +240,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_05.jpg" alt="">
+                                        <img class="img-responsive" src="{base_url('templates/default/assets/')}images/recent_news_05.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -266,7 +266,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_06.jpg" alt="">
+                                        <img class="img-responsive" src="{base_url('templates/default/assets/')}images/recent_news_06.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -305,7 +305,7 @@
                                             <!-- post image -->
                                             <div class="post-thumb">
                                                 <a href="#">
-                                                    <img src="images/politics_01.jpg" class="img-responsive" alt="">
+                                                    <img src="{base_url('templates/default/assets/')}images/politics_01.jpg" class="img-responsive" alt="">
                                                 </a>
                                             </div>
                                             <!-- post title -->
@@ -331,7 +331,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                                     <a href="#">
-                                                        <img src="images/politics_02.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_02.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -351,7 +351,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                                                     <a href="#">
-                                                        <img src="images/politics_03.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_03.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -371,7 +371,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                                                     <a href="#">
-                                                        <img src="images/politics_04.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_04.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -391,7 +391,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                                     <a href="#">
-                                                        <img src="images/politics_05.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_05.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -420,7 +420,7 @@
                                             <!-- post image -->
                                             <div class="post-thumb">
                                                 <a href="#">
-                                                    <img src="images/politics_01.jpg" class="img-responsive" alt="">
+                                                    <img src="{base_url('templates/default/assets/')}images/politics_01.jpg" class="img-responsive" alt="">
                                                 </a>
                                             </div>
                                             <!-- post title -->
@@ -446,7 +446,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                                     <a href="#">
-                                                        <img src="images/politics_02.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_02.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -466,7 +466,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                                     <a href="#">
-                                                        <img src="images/politics_03.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_03.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -486,7 +486,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                                                     <a href="#">
-                                                        <img src="images/politics_04.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_04.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -506,7 +506,7 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                                                     <a href="#">
-                                                        <img src="images/politics_05.jpg" class="img-responsive" alt="">
+                                                        <img src="{base_url('templates/default/assets/')}images/politics_05.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
@@ -531,7 +531,7 @@
             </section>
             <!-- /.Politics -->
             <div class="ads">
-                <a href="#"><img src="images/top-bannner2.jpg" class="img-responsive center-block" alt=""></a>
+                <a href="#"><img src="{base_url('templates/default/assets/')}images/top-bannner2.jpg" class="img-responsive center-block" alt=""></a>
             </div>
         </div>
         <!-- /.left content inner -->
@@ -560,7 +560,7 @@
             <div class="banner-add">
                 <!-- add -->
                 <span class="add-title">- Advertisement -</span>
-                <a href="#"><img src="images/ad-banner.jpg" class="img-responsive center-block" alt=""></a>
+                <a href="#"><img src="{base_url('templates/default/assets/')}images/ad-banner.jpg" class="img-responsive center-block" alt=""></a>
             </div>
             <div class="tab-inner">
                 <ul class="tabs">
@@ -573,7 +573,7 @@
                     <div class="tab-item-inner">
                         <div class="box-item wow fadeIn" data-wow-duration="1s">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_01.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_01.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-1">
@@ -592,7 +592,7 @@
                         </div>
                         <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_02.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_02.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-2">
@@ -611,7 +611,7 @@
                         </div>
                         <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_03.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_03.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-3">
@@ -630,7 +630,7 @@
                         </div>
                         <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_04.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_04.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-4">
@@ -652,7 +652,7 @@
                     <div class="tab-item-inner">
                         <div class="box-item">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_01.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_01.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-5">
@@ -671,7 +671,7 @@
                         </div>
                         <div class="box-item">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_02.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_02.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-2">
@@ -690,7 +690,7 @@
                         </div>
                         <div class="box-item">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_03.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_03.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-3">
@@ -709,7 +709,7 @@
                         </div>
                         <div class="box-item">
                             <div class="img-thumb">
-                                <a href="#" rel="bookmark"><img class="entry-thumb" src="images/popular_news_04.jpg" alt="" height="80" width="90"></a>
+                                <a href="#" rel="bookmark"><img class="entry-thumb" src="{base_url('templates/default/assets/')}images/popular_news_04.jpg" alt="" height="80" width="90"></a>
                             </div>
                             <div class="item-details">
                                 <h6 class="sub-category-title bg-color-4">
@@ -738,7 +738,7 @@
                 <div class="headding-border"></div>
                 <!-- latest comment post -->
                 <div class="post-style2 latest-com">
-                    <img src="images/comment-01.jpg" alt="">
+                    <img src="{base_url('templates/default/assets/')}images/comment-01.jpg" alt="">
                     <div class="latest-com-detail">
                         <h5><a href="#" title="">It uses a dictionary of over</a></h5>
                         <span>Nec sagittis sem nibh dictionary...</span>
@@ -747,7 +747,7 @@
                 </div>
                 <!-- latest comment post -->
                 <div class="post-style2 latest-com">
-                    <img src="images/comment-02.jpg" alt="">
+                    <img src="{base_url('templates/default/assets/')}images/comment-02.jpg" alt="">
                     <div class="latest-com-detail">
                         <h5><a href="#" title="">It uses a dictionary of over</a></h5>
                         <span>Nec sagittis sem nibh dictionary...</span>
@@ -776,7 +776,7 @@
                         <!-- post image -->
                         <a href="#" class="video-img-icon">
                             <i class="fa fa-play"></i>
-                            <img src="images/video-02.jpg" alt="" class="img-responsive">
+                            <img src="{base_url('templates/default/assets/')}images/video-02.jpg" alt="" class="img-responsive">
                         </a>
                     </div>
                     <!-- post title -->
@@ -784,7 +784,7 @@
                     <div class="post-title-author-details">
                         <div class="date">
                             <ul>
-                                <li><img src="images/comment-02.jpg" class="img-responsive" alt=""></li>
+                                <li><img src="{base_url('templates/default/assets/')}images/comment-02.jpg" class="img-responsive" alt=""></li>
                                 <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                 <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                 <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -799,7 +799,7 @@
                         <!-- post image -->
                         <a href="#" class="video-img-icon">
                             <i class="fa fa-play"></i>
-                            <img src="images/video-03.jpg" alt="" class="img-responsive">
+                            <img src="{base_url('templates/default/assets/')}images/video-03.jpg" alt="" class="img-responsive">
                         </a>
                     </div>
                     <!-- post title -->
@@ -807,7 +807,7 @@
                     <div class="post-title-author-details">
                         <div class="date">
                             <ul>
-                                <li><img src="images/comment-01.jpg" class="img-responsive" alt=""></li>
+                                <li><img src="{base_url('templates/default/assets/')}images/comment-01.jpg" class="img-responsive" alt=""></li>
                                 <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                 <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                 <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -822,7 +822,7 @@
                         <!-- post image -->
                         <a href="#" class="video-img-icon">
                             <i class="fa fa-play"></i>
-                            <img src="images/video-04.jpg" alt="" class="img-responsive">
+                            <img src="{base_url('templates/default/assets/')}images/video-04.jpg" alt="" class="img-responsive">
                         </a>
                     </div>
                     <!-- post title -->
@@ -830,7 +830,7 @@
                     <div class="post-title-author-details">
                         <div class="date">
                             <ul>
-                                <li><img src="images/comment-02.jpg" class="img-responsive" alt=""></li>
+                                <li><img src="{base_url('templates/default/assets/')}images/comment-02.jpg" class="img-responsive" alt=""></li>
                                 <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                 <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                 <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -853,12 +853,12 @@
                     <div class="headding-border"></div>
                     <!--Post list-->
                     <div class="post-style2 wow fadeIn" data-wow-duration="1s">
-                        <a href="#"><img src="images/category/category-post-11.jpg" alt=""></a>
+                        <a href="#"><img src="{base_url('templates/default/assets/')}images/category/category-post-11.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h3><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h3>
                             <div class="date">
                                 <ul>
-                                    <li><img src="images/comment-01.jpg" class="img-responsive" alt=""></li>
+                                    <li><img src="{base_url('templates/default/assets/')}images/comment-01.jpg" class="img-responsive" alt=""></li>
                                     <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                     <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                     <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -870,12 +870,12 @@
                     </div>
                     <!--Post list-->
                     <div class="post-style2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <a href="#"><img src="images/category/category-post-12.jpg" alt=""></a>
+                        <a href="#"><img src="{base_url('templates/default/assets/')}images/category/category-post-12.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h3><a href="#" title="">Lorem Ipsum is simply dummy text of the printing .</a></h3>
                             <div class="date">
                                 <ul>
-                                    <li><img src="images/comment-02.jpg" class="img-responsive" alt=""></li>
+                                    <li><img src="{base_url('templates/default/assets/')}images/comment-02.jpg" class="img-responsive" alt=""></li>
                                     <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                     <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                     <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -887,12 +887,12 @@
                     </div>
                     <!-- Post list -->
                     <div class="post-style2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <a href="#"><img src="images/category/category-post-13.jpg" alt=""></a>
+                        <a href="#"><img src="{base_url('templates/default/assets/')}images/category/category-post-13.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h3><a href="#" title="">If you are going to use a passage of Lorem Ipsum .</a></h3>
                             <div class="date">
                                 <ul>
-                                    <li><img src="images/comment-01.jpg" class="img-responsive" alt=""></li>
+                                    <li><img src="{base_url('templates/default/assets/')}images/comment-01.jpg" class="img-responsive" alt=""></li>
                                     <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                     <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                     <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -904,12 +904,12 @@
                     </div>
                     <!-- Post list -->
                     <div class="post-style2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <a href="#"><img src="images/category/category-post-14.jpg" alt=""></a>
+                        <a href="#"><img src="{base_url('templates/default/assets/')}images/category/category-post-14.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h3><a href="#" title="">Check Out the Amazing Photos of Lauren Conradâ€™s Trip</a></h3>
                             <div class="date">
                                 <ul>
-                                    <li><img src="images/comment-02.jpg" class="img-responsive" alt=""></li>
+                                    <li><img src="{base_url('templates/default/assets/')}images/comment-02.jpg" class="img-responsive" alt=""></li>
                                     <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                     <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                     <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -921,12 +921,12 @@
                     </div>
                     <!-- Post list -->
                     <div class="post-style2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                        <a href="#"><img src="images/category/category-post-15.jpg" alt=""></a>
+                        <a href="#"><img src="{base_url('templates/default/assets/')}images/category/category-post-15.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h3><a href="#" title="">Many desktop publishing packages and web page.</a></h3>
                             <div class="date">
                                 <ul>
-                                    <li><img src="images/comment-01.jpg" class="img-responsive" alt=""></li>
+                                    <li><img src="{base_url('templates/default/assets/')}images/comment-01.jpg" class="img-responsive" alt=""></li>
                                     <li>By <a title="" href="#"><span>Naeem Khan</span></a> --</li>
                                     <li><a title="" href="#">Oct 6, 2016</a> --</li>
                                     <li><a title="" href="#"><span>275 Comments</span></a></li>
@@ -964,7 +964,7 @@
                     <div id="widget-slider" class="owl-carousel owl-theme">
                         <!-- widget item -->
                         <div class="item">
-                            <a href="#"><img src="images/slider-widget-1.jpg" alt=""></a>
+                            <a href="#"><img src="{base_url('templates/default/assets/')}images/slider-widget-1.jpg" alt=""></a>
                             <h4><a href="#">For good results must be make good plan</a></h4>
                             <div class="date">
                                 <ul>
@@ -976,7 +976,7 @@
                         </div>
                         <!-- widget item -->
                         <div class="item">
-                            <a href="#"><img src="images/slider-widget-2.jpg" alt=""></a>
+                            <a href="#"><img src="{base_url('templates/default/assets/')}images/slider-widget-2.jpg" alt=""></a>
                             <h4><a href="#">Dog invason sparks chaos at IPL match</a></h4>
                             <div class="date">
                                 <ul>
@@ -988,7 +988,7 @@
                         </div>
                         <!-- widget item -->
                         <div class="item">
-                            <a href="#"><img src="images/slider-widget-3.jpg" alt=""></a>
+                            <a href="#"><img src="{base_url('templates/default/assets/')}images/slider-widget-3.jpg" alt=""></a>
                             <h4><a href="#">For good results must be make good plan</a></h4>
                             <div class="date">
                                 <ul>
@@ -1054,7 +1054,7 @@
         </div>
         <div class="col-sm-12">
             <div class="banner">
-                <img src="images/top-bannner2.jpg" class="img-responsive center-block" alt="">
+                <img src="{base_url('templates/default/assets/')}images/top-bannner2.jpg" class="img-responsive center-block" alt="">
             </div>
         </div>
     </div>

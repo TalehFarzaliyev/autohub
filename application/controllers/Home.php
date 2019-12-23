@@ -9,6 +9,7 @@ class Home extends Site_Controller {
 		parent::__construct();
 		$this->load->model('Slider_model','slider');
 		$this->load->model('News_model','news');
+		$this->load->model('Menu_model','menu');
 		$this->load->helper('general_helper');
 	}
 
@@ -36,6 +37,7 @@ class Home extends Site_Controller {
             $this->data['news_list']['last_news'] = $news_list[4];
             //debug_data($this->data['news_list']); exit();
         //news
+
 		$this->render('home');
 	}
 }

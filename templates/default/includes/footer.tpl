@@ -114,7 +114,7 @@
 </div>
 <!-- /.sub footer -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script data-cfasync="false" src="{base_url('templates/default/assets/')}js/email-decode.min.js"></script>
 <script type="text/javascript" src="{base_url('templates/default/assets/')}js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="{base_url('templates/default/assets/')}js/bootstrap.min.js"></script>

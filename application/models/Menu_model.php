@@ -38,7 +38,7 @@ class Menu_model extends Main_Model {
             $this->db->where('menu_items.menu_id', $menu_id);
             $this->db->where('menu_items_translation.lang_id', $lang_id);
             $this->db->where('menu_items.status', $status);
-						$this->db->join('menu_items_translation', 'menu_items.id = menu_items_translation.menu_items_id');
+            $this->db->join('menu_items_translation', 'menu_items.id = menu_items_translation.menu_items_id');
             return $this->db->get('menu_items')->result_array();
 	}
 

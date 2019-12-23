@@ -8,7 +8,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{base_url('templates/default/assets/')}images/fev-icon.png" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>newspaper</title>
+    <title>{$title}</title>
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
     <!-- Bootstrap -->
@@ -82,14 +82,14 @@
                 <div class="col-xs-12 col-md-4 col-sm-4">
                     <div class="header-logo">
                         <!-- logo -->
-                        <a href="home-style-one.html">
+                        <a href="{base_url()}">
                             <img class="td-retina-data img-responsive" src="{base_url('templates/default/assets/')}images/logo.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-xs-8 col-md-8 col-sm-8 hidden-xs">
                     <div class="header-banner">
-                        <a href="#"><img class="td-retina img-responsive" src="{base_url('templates/default/assets/')}images/top-bannner.jpg" alt=""></a>
+                        <a href="{base_url()}"><img class="td-retina img-responsive" src="{base_url('templates/default/assets/')}images/top-bannner.jpg" alt=""></a>
                     </div>
                 </div>
             </div>

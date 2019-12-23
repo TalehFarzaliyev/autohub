@@ -57,7 +57,7 @@ class Menu_generator {
 	 *
 	 * @var string
 	 */
-	private $parent_anchor            = '<a href="%s">%s</a>';
+	private $parent_anchor            = '<a  href="%s" class="dropdown-toggle category03" data-toggle="dropdown">%s<span class="pe-7s-angle-down"></span></a>';
 
 	/**
 	 * Opening tag of the menu item level one that has children

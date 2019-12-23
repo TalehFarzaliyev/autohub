@@ -12,7 +12,6 @@ class Site_Controller extends Main_Controller {
 		{
 			$this->load->model($this->model);
 		}
-		
 
 		$this->data['css'] = '';
 		$this->data['main_css'] = '';
@@ -25,19 +24,19 @@ class Site_Controller extends Main_Controller {
 		$this->data['meta_keywords'] = '';
 
 		
-		$this->load->library("Auth");
-
-		if ($this->auth->is_loggedin())
-		{
-			$this->data['user'] = [
-				'id'			=> $this->auth->get_user()->id,
-				'email'			=> $this->auth->get_user()->email,
-				'username'		=> $this->auth->get_user()->username,
-				'fullname'		=> $this->auth->get_user()->firstname." ".$this->auth->get_user()->lastname
-			];
-
-			$this->session->set_userdata($this->data['user']);
-		}
+//		$this->load->library("Auth");
+//
+//		if ($this->auth->is_loggedin())
+//		{
+//			$this->data['user'] = [
+//				'id'			=> $this->auth->get_user()->id,
+//				'email'			=> $this->auth->get_user()->email,
+//				'username'		=> $this->auth->get_user()->username,
+//				'fullname'		=> $this->auth->get_user()->firstname." ".$this->auth->get_user()->lastname
+//			];
+//
+//			$this->session->set_userdata($this->data['user']);
+//		}
 
 	}
 
