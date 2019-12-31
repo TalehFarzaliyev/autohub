@@ -1,16 +1,16 @@
+{if !empty($news_list.slider)}
 <section class="headding-news">
     <div class="container">
         <div class="row row-margin">
             <div class="col-sm-3 col-padding">
                 <div class="post-wrapper post-grid-1 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
-                        <a href="#">
-                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-06.jpg" alt="">
+                        <a href="{base_url('xeber/')}{$news_list.slider.0.slug}">
+                            <img class="entry-thumb" src="{base_url('uploads/')}{$news_list.slider.0.image}" alt="">
                         </a>
                     </div>
                     <div class="post-info">
-                        <span class="color-3">SPORTS </span>
-                        <h3 class="post-title post-title-size"><a href="#" rel="bookmark"> The generated Lorem Ipsum is therefore always free from . </a></h3>
+                        <h3 class="post-title post-title-size"><a href="{base_url('xeber/')}{$news_list.slider.0.slug}" rel="bookmark"> {$news_list.slider.0.name} </a></h3>
                         <div class="post-editor-date">
                             <!-- post date -->
                             <div class="post-date">
@@ -19,28 +19,25 @@
                             <!-- post comment -->
                             <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                             <!-- read more -->
-                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                            <a class="readmore pull-right" href="{base_url('xeber/')}{$news_list.slider.0.slug}"><i class="pe-7s-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="post-wrapper post-grid-2 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
-                        <a href="#">
-                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-07.jpg" alt="">
+                        <a href="{base_url('xeber/')}{$news_list.slider.1.slug}">
+                            <img class="entry-thumb" src="{base_url('uploads/')}{$news_list.slider.1.image}" alt="">
                         </a>
                     </div>
                     <div class="post-info">
-                        <span class="color-5">BUSINESS</span>
-                        <h3 class="post-title post-title-size"><a href="#" rel="bookmark">Contrary to popular belief, Lorem Ipsum is not simply random text. </a></h3>
+                        <h3 class="post-title post-title-size"><a href="{base_url('xeber/')}{$news_list.slider.1.slug}" rel="bookmark">{$news_list.slider.1.name} </a></h3>
                         <div class="post-editor-date">
                             <!-- post date -->
                             <div class="post-date">
                                 <i class="pe-7s-clock"></i> Oct 6, 2016
                             </div>
-                            <!-- post comment -->
-                            <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                             <!-- read more -->
-                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                            <a class="readmore pull-right" href="{base_url('xeber/')}{$news_list.slider.1.slug}"><i class="pe-7s-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -48,22 +45,19 @@
             <div class="col-sm-6 col-padding">
                 <div class="post-wrapper post-grid-3 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
-                        <a href="#">
-                            <img class="entry-thumb-middle" src="{base_url('templates/default/assets/')}images/slider/slide-08.jpg" alt="">
+                        <a href="{base_url('xeber/')}{$news_list.slider.2.slug}">
+                            <img class="entry-thumb-middle" src="{base_url('uploads/')}{$news_list.slider.2.image}" alt="">
                         </a>
                     </div>
                     <div class="post-info">
-                        <span class="color-4">FASHION</span>
-                        <h3 class="post-title"><a href="#" rel="bookmark">There are many variations of passages of Lorem Ipsum available, but the majority have </a></h3>
+                        <h3 class="post-title"><a href="{base_url('xeber/')}{$news_list.slider.2.slug}" rel="bookmark">{$news_list.slider.2.name} </a></h3>
                         <div class="post-editor-date">
                             <!-- post date -->
                             <div class="post-date">
                                 <i class="pe-7s-clock"></i> Oct 6, 2016
                             </div>
-                            <!-- post comment -->
-                            <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                             <!-- read more -->
-                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                            <a class="readmore pull-right" href="{base_url('xeber/')}{$news_list.slider.2.slug}"><i class="pe-7s-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -71,43 +65,38 @@
             <div class="col-sm-3 col-padding">
                 <div class="post-wrapper post-grid-4 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
-                        <a href="#">
-                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-09.jpg" alt="">
+                        <a href="{base_url('xeber/')}{$news_list.slider.3.slug}">
+                            <img class="entry-thumb" src="{base_url('uploads/')}{$news_list.slider.3.image}" alt="">
                         </a>
                     </div>
                     <div class="post-info">
-                        <span class="color-1">TRAVEL</span>
-                        <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The standard chunk of Lorem Ipsum used since the 1500s is reproduced</a></h3>
+                        <h3 class="post-title post-title-size"><a href="{base_url('xeber/')}{$news_list.slider.3.slug}" rel="bookmark">{$news_list.slider.3.name}</a></h3>
                         <div class="post-editor-date">
                             <!-- post date -->
                             <div class="post-date">
                                 <i class="pe-7s-clock"></i> Oct 6, 2016
                             </div>
-                            <!-- post comment -->
-                            <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                             <!-- read more -->
-                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                            <a class="readmore pull-right" href="{base_url('xeber/')}{$news_list.slider.3.slug}"><i class="pe-7s-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="post-wrapper post-grid-5 wow fadeIn" data-wow-duration="2s">
                     <div class="post-thumb img-zoom-in">
-                        <a href="#">
-                            <img class="entry-thumb" src="{base_url('templates/default/assets/')}images/slider/slide-10.jpg" alt="">
+                        <a href="{base_url('xeber/')}{$news_list.slider.4.slug}">
+                            <img class="entry-thumb" src="{base_url('uploads/')}{$news_list.slider.4.image}" alt="">
                         </a>
                     </div>
                     <div class="post-info">
-                        <span class="color-2">TECHNOLOGY</span>
-                        <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The 20 free things in Sydney with your girlfriend </a></h3>
+
+                        <h3 class="post-title post-title-size"><a href="{base_url('xeber/')}{$news_list.slider.4.slug}" rel="bookmark">{$news_list.slider.4.name} </a></h3>
                         <div class="post-editor-date">
                             <!-- post date -->
                             <div class="post-date">
                                 <i class="pe-7s-clock"></i> Oct 6, 2016
                             </div>
-                            <!-- post comment -->
-                            <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                             <!-- read more -->
-                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                            <a class="readmore pull-right" href="{base_url('xeber/')}{$news_list.slider.4.slug}"><i class="pe-7s-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -115,6 +104,7 @@
         </div>
     </div>
 </section>
+{/if}
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-sm-8">

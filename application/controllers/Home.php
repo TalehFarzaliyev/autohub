@@ -28,7 +28,7 @@ class Home extends Site_Controller {
 				'per_page'	=> 25,
 				'page'		=> 1
 			];
-			$news_list = $this->news->get_rows(['name','desc_text', 'slug', 'image'], $this->data['filter'], $this->data['sort'], $this->data['limit']);
+			$news_list = $this->news->get_rows(['name','desc_text', 'created_at', 'slug', 'image'], $this->data['filter'], $this->data['sort'], $this->data['limit']);
             $news_list = partition($news_list,5);
 			$this->data['news_list']['slider'] = $news_list[0];
             $this->data['news_list']['recent'] = $news_list[1];
