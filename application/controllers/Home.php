@@ -35,7 +35,7 @@ class Home extends Site_Controller {
             $this->data['news_list']['next']   = $news_list[2];
             $this->data['news_list']['most']   = $news_list[3];
             $this->data['news_list']['last_news'] = $news_list[4];
-            //debug_data($this->data['news_list']); exit();
+            //debug_data($this->data['news_list']['recent']); exit();
         //news
 
 		$this->render('home');

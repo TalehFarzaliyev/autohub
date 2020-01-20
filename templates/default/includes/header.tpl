@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{base_url('templates/default/assets/')}images/fev-icon.png" />
+    <link rel="shortcut icon" href="{base_url('templates/default/assets/')}logos.png" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{$title}</title>
     <!-- google fonts -->
@@ -83,7 +83,7 @@
                     <div class="header-logo">
                         <!-- logo -->
                         <a href="{base_url()}">
-                            <img class="td-retina-data img-responsive" src="{base_url('templates/default/assets/')}images/logo.png" alt="">
+                            <img class="td-retina-data img-responsive" src="{base_url('templates/default/assets/')}272x90.png" alt="">
                         </a>
                     </div>
                 </div>

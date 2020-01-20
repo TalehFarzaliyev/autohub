@@ -7,9 +7,9 @@ class Blog extends Site_Controller {
 	{
 		parent::__construct();
 		// Calendar //
-		$this->load->model('News_model');
-		$this->load->model('Category_model');
-		$this->data['categories'] = $this->Category_model->get_rows(['name', 'slug'], ['status' => 1, 'lang_id' => $this->data['current_lang_id']], ['column' => 'created_at', 'order' => 'ASC']);
+		$this->load->model('News_model','news');
+		$this->load->model('Category_model','category');
+		$this->data['categories'] = $this->category->get_rows(['name', 'slug'], ['status' => 1, 'lang_id' => $this->data['current_lang_id']], ['column' => 'created_at', 'order' => 'ASC']);
 	}
 
 	public function index()
@@ -63,50 +63,59 @@ class Blog extends Site_Controller {
 		$this->render('blog');
 	}
 
-	public function last()
+	public function category($slug = false)
 	{
-		$this->data['title'] = translate('title');		
+        //echo $slug; exit();
+        if($slug)
+        {
+            $segment_array = $this->uri->segment_array();
+            $this->data['title'] = translate('title');
+            $page = (ctype_digit(end($segment_array))) ? end($segment_array) : 1;
+            $category = $this->category->get_rows(['*'], ['status' => 1, 'lang_id' => $this->data['current_lang_id'], 'slug' => $slug], ['column' => 'created_at', 'order' => 'DESC']);
+            $news_ids =
+            $rows = $this->news->get_rows(['name', 'name_text', 'slug', 'description', 'desc_text','image', 'created_at','featured'], ['status' => 1, 'lang_id' => $this->data['current_lang_id'], 'slug' => $slug], ['column' => 'created_at', 'order' => 'DESC']);
+            print_r($rows); exit();
+            if($rows)
+            {
+                foreach($rows as $row)
+                {
+                    if(!empty($row['image']) && count($row['image']) != 0)
+                    {
+                        $image = $row['image'];
+                        if(!$image)
+                        {
+                            $image = '/catalog/nophotonews.png';
+                        }
+                    }
+                    else
+                    {
+                        $image = '/catalog/nophotonews.png';
+                    }
 
-		$segment_array = $this->uri->segment_array();
-		$page = (ctype_digit(end($segment_array))) ? end($segment_array) : 1;
-		$rows = $this->News_model->get_rows(['name', 'name_text', 'slug', 'description', 'desc_text','image', 'created_at','featured'], ['status' => 1, 'lang_id' => $this->data['current_lang_id'],'featured'=>0], ['column' => 'created_at', 'order' => 'DESC']);
-		
-		if($rows)
-		{
-			foreach($rows as $row)
-			{
-				if(!empty($row['image']) && count($row['image']) != 0)
-				{
-					$image = $row['image'];
-					if(!$image)
-					{
-						$image = '/catalog/nophotonews.png';
-					}
-				}
-				else
-				{
-					$image = '/catalog/nophotonews.png';
-				}
+                    $this->data['news_list'][] = [
+                        'name'			=> $row['name'],
+                        'name_text' 	=> $row['name_text'],
+                        'slug'			=> $row['slug'],
+                        'description'	=> $row['description'],
+                        'desc_text'		=> $row['desc_text'],
+                        'featured'		=> $row['featured'],
+                        'created_at'=> ($row['created_at'] == null) ?  strftime("%e %b %G",strtotime($row['created_at']))  :   strftime("%e %b %G",strtotime($row['created_at'])),       //date('d M Y', strtotime($row['created_at'])) : date('d M Y', strtotime($row['published_date'])),
+                        'image'		=> $image
+                        //'href'		=> site_url_multi('news/'.$row['slug'].'/'.$row['news_id'])
+                    ];
+                }
+            }
+            else
+            {
+                $this->data['news_list'] = [];
+            }
 
-				$this->data['news_list'][] = [
-					'name'			=> $row['name'],
-					'name_text' 	=> $row['name_text'],
-					'slug'			=> $row['slug'],
-					'description'	=> $row['description'],
-					'desc_text'		=> $row['desc_text'],
-					'featured'		=> $row['featured'],
-					'created_at'=> ($row['created_at'] == null) ?  strftime("%e %b %G",strtotime($row['created_at']))  :   strftime("%e %b %G",strtotime($row['created_at'])),       //date('d M Y', strtotime($row['created_at'])) : date('d M Y', strtotime($row['published_date'])),
-					'image'		=> $image
-					//'href'		=> site_url_multi('news/'.$row['slug'].'/'.$row['news_id'])
-				];
-			}
-		}
-		else
-		{
-			$this->data['news_list'] = [];
-		}
-
-		$this->render('last_blog');
+            $this->render('category');
+        }
+        else
+        {
+            show_404();
+        }
 	}
 
 	public function view($slug = false)
@@ -151,9 +160,6 @@ class Blog extends Site_Controller {
 						];
 					}
 				}
-
-//				echo "<pre>";$this->data['title'] = $news[0]['name'];
-//				print_r($this->data['news']); die();
 				$this->render('details');
 			}
 			else
