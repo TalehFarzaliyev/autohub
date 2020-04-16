@@ -370,7 +370,7 @@
                             <label class="radio-inline">
                                 <input type="radio" name="optradio">Bilmirəm</label>
                         </div>
-                        <button type="button" class="btn btn-style">Success</button>
+                        <button type="button" class="btn btn-style">Göndər</button>
                     </div>
                 </div>
                 <!-- /.online vote -->

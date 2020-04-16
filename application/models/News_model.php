@@ -98,4 +98,26 @@ class News_model extends Main_Model {
 		$this->db->where('news_id', $news_id);
 		$this->db->delete('news_videos');
 	}
+
+	public function get_news_ids($id)
+    {
+        $this->db->select('news_id');
+        $this->db->from('wc_news_to_category');
+        $this->db->where('category_id', $id);
+        $query = $this->db->get();
+
+        if($query->num_rows())
+            return $query->result_array();
+    }
+
+    public function getCategoryNews($sql,$lang,$limit)
+    {
+        $query = $this->db->query("SELECT `news_id`, `name`, `name_text`, `slug`, `desc_text`, `image`, `created_at` 
+                        FROM `wc_news` 
+                        
+                        JOIN `wc_news_translation` ON `wc_news`.`id` = `wc_news_translation`.`news_id` 
+                        WHERE `status` = 1 AND `lang_id` ='$lang'  AND `news_id` IN($sql) AND `deleted_at` IS NULL ORDER BY `created_at` DESC LIMIT $limit");
+        return $query->result_array();
+    }
+
 }

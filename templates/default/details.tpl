@@ -36,168 +36,168 @@
 {*                    </div>*}
                     <!-- Related news area
                         ============================================ -->
-                    <div class="related-news-inner">
-                        <h3 class="category-headding ">Oxşar Xəbərlər</h3>
-                        <div class="headding-border"></div>
-                        <div class="row">
-                            <div id="content-slide-5" class="owl-carousel">
-                                <!-- item-1 -->
-                                <div class="item">
-                                    <div class="row rn_block">
-                                        <div class="col-xs-12 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
-                                                <!-- image -->
-                                                <div class="post-thumb">
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="images/articale.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="post-info meta-info-rn">
-                                                    <div class="slide">
-                                                        <a target="_blank" href="#" class="post-badge btn_five">B</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-title-author-details">
-                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
-                                                <div class="post-editor-date">
-                                                    <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> Oct 6, 2016
-                                                    </div>
-                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-                                                <!-- image -->
-                                                <div class="post-thumb">
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="images/articale02.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="post-info meta-info-rn">
-                                                    <div class="slide">
-                                                        <a target="_blank" href="#" class="post-badge btn_three">S</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-title-author-details">
-                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
-                                                <div class="post-editor-date">
-                                                    <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> Oct 6, 2016
-                                                    </div>
-                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                                                <!-- image -->
-                                                <div class="post-thumb">
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="images/articale03.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="post-info meta-info-rn">
-                                                    <div class="slide">
-                                                        <a target="_blank" href="#" class="post-badge btn_one">F</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-title-author-details">
-                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
-                                                <div class="post-editor-date">
-                                                    <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> Oct 6, 2016
-                                                    </div>
-                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- item-2 -->
-                                <div class="item">
-                                    <div class="row rn_block">
-                                        <div class="col-xs-12 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-                                                <!-- image -->
-                                                <div class="post-thumb">
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="images/articale04.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="post-info meta-info-rn">
-                                                    <div class="slide">
-                                                        <a target="_blank" href="#" class="post-badge btn_eight">H</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-title-author-details">
-                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
-                                                <div class="post-editor-date">
-                                                    <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> Oct 6, 2016
-                                                    </div>
-                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
-                                                <!-- image -->
-                                                <div class="post-thumb">
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="images/articale05.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="post-info meta-info-rn">
-                                                    <div class="slide">
-                                                        <a target="_blank" href="#" class="post-badge btn_four">L</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-title-author-details">
-                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
-                                                <div class="post-editor-date">
-                                                    <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> Oct 6, 2016
-                                                    </div>
-                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">
-                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
-                                                <!-- image -->
-                                                <div class="post-thumb">
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="images/articale06.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="post-info meta-info-rn">
-                                                    <div class="slide">
-                                                        <a target="_blank" href="#" class="post-badge btn_two">T</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-title-author-details">
-                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
-                                                <div class="post-editor-date">
-                                                    <div class="post-date">
-                                                        <i class="pe-7s-clock"></i> Oct 6, 2016
-                                                    </div>
-                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{*                    <div class="related-news-inner">*}
+{*                        <h3 class="category-headding ">Oxşar Xəbərlər</h3>*}
+{*                        <div class="headding-border"></div>*}
+{*                        <div class="row">*}
+{*                            <div id="content-slide-5" class="owl-carousel">*}
+{*                                <!-- item-1 -->*}
+{*                                <div class="item">*}
+{*                                    <div class="row rn_block">*}
+{*                                        <div class="col-xs-12 col-md-4 col-sm-4 padd">*}
+{*                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s">*}
+{*                                                <!-- image -->*}
+{*                                                <div class="post-thumb">*}
+{*                                                    <a href="#">*}
+{*                                                        <img class="img-responsive" src="images/articale.jpg" alt="">*}
+{*                                                    </a>*}
+{*                                                </div>*}
+{*                                                <div class="post-info meta-info-rn">*}
+{*                                                    <div class="slide">*}
+{*                                                        <a target="_blank" href="#" class="post-badge btn_five">B</a>*}
+{*                                                    </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                            <div class="post-title-author-details">*}
+{*                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>*}
+{*                                                <div class="post-editor-date">*}
+{*                                                    <div class="post-date">*}
+{*                                                        <i class="pe-7s-clock"></i> Oct 6, 2016*}
+{*                                                    </div>*}
+{*                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                        </div>*}
+{*                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">*}
+{*                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">*}
+{*                                                <!-- image -->*}
+{*                                                <div class="post-thumb">*}
+{*                                                    <a href="#">*}
+{*                                                        <img class="img-responsive" src="images/articale02.jpg" alt="">*}
+{*                                                    </a>*}
+{*                                                </div>*}
+{*                                                <div class="post-info meta-info-rn">*}
+{*                                                    <div class="slide">*}
+{*                                                        <a target="_blank" href="#" class="post-badge btn_three">S</a>*}
+{*                                                    </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                            <div class="post-title-author-details">*}
+{*                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>*}
+{*                                                <div class="post-editor-date">*}
+{*                                                    <div class="post-date">*}
+{*                                                        <i class="pe-7s-clock"></i> Oct 6, 2016*}
+{*                                                    </div>*}
+{*                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                        </div>*}
+{*                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">*}
+{*                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">*}
+{*                                                <!-- image -->*}
+{*                                                <div class="post-thumb">*}
+{*                                                    <a href="#">*}
+{*                                                        <img class="img-responsive" src="images/articale03.jpg" alt="">*}
+{*                                                    </a>*}
+{*                                                </div>*}
+{*                                                <div class="post-info meta-info-rn">*}
+{*                                                    <div class="slide">*}
+{*                                                        <a target="_blank" href="#" class="post-badge btn_one">F</a>*}
+{*                                                    </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                            <div class="post-title-author-details">*}
+{*                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>*}
+{*                                                <div class="post-editor-date">*}
+{*                                                    <div class="post-date">*}
+{*                                                        <i class="pe-7s-clock"></i> Oct 6, 2016*}
+{*                                                    </div>*}
+{*                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                        </div>*}
+{*                                    </div>*}
+{*                                </div>*}
+{*                                <!-- item-2 -->*}
+{*                                <div class="item">*}
+{*                                    <div class="row rn_block">*}
+{*                                        <div class="col-xs-12 col-md-4 col-sm-4 padd">*}
+{*                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">*}
+{*                                                <!-- image -->*}
+{*                                                <div class="post-thumb">*}
+{*                                                    <a href="#">*}
+{*                                                        <img class="img-responsive" src="images/articale04.jpg" alt="">*}
+{*                                                    </a>*}
+{*                                                </div>*}
+{*                                                <div class="post-info meta-info-rn">*}
+{*                                                    <div class="slide">*}
+{*                                                        <a target="_blank" href="#" class="post-badge btn_eight">H</a>*}
+{*                                                    </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                            <div class="post-title-author-details">*}
+{*                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>*}
+{*                                                <div class="post-editor-date">*}
+{*                                                    <div class="post-date">*}
+{*                                                        <i class="pe-7s-clock"></i> Oct 6, 2016*}
+{*                                                    </div>*}
+{*                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                        </div>*}
+{*                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">*}
+{*                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">*}
+{*                                                <!-- image -->*}
+{*                                                <div class="post-thumb">*}
+{*                                                    <a href="#">*}
+{*                                                        <img class="img-responsive" src="images/articale05.jpg" alt="">*}
+{*                                                    </a>*}
+{*                                                </div>*}
+{*                                                <div class="post-info meta-info-rn">*}
+{*                                                    <div class="slide">*}
+{*                                                        <a target="_blank" href="#" class="post-badge btn_four">L</a>*}
+{*                                                    </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                            <div class="post-title-author-details">*}
+{*                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>*}
+{*                                                <div class="post-editor-date">*}
+{*                                                    <div class="post-date">*}
+{*                                                        <i class="pe-7s-clock"></i> Oct 6, 2016*}
+{*                                                    </div>*}
+{*                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                        </div>*}
+{*                                        <div class="col-xs-6 col-md-4 col-sm-4 padd">*}
+{*                                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">*}
+{*                                                <!-- image -->*}
+{*                                                <div class="post-thumb">*}
+{*                                                    <a href="#">*}
+{*                                                        <img class="img-responsive" src="images/articale06.jpg" alt="">*}
+{*                                                    </a>*}
+{*                                                </div>*}
+{*                                                <div class="post-info meta-info-rn">*}
+{*                                                    <div class="slide">*}
+{*                                                        <a target="_blank" href="#" class="post-badge btn_two">T</a>*}
+{*                                                    </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                            <div class="post-title-author-details">*}
+{*                                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>*}
+{*                                                <div class="post-editor-date">*}
+{*                                                    <div class="post-date">*}
+{*                                                        <i class="pe-7s-clock"></i> Oct 6, 2016*}
+{*                                                    </div>*}
+{*                                                    <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>*}
+{*                                                </div>*}
+{*                                            </div>*}
+{*                                        </div>*}
+{*                                    </div>*}
+{*                                </div>*}
+{*                            </div>*}
+{*                        </div>*}
+{*                    </div>*}
                 </article>
             </div>
             <div class="col-sm-4 left-padding">
