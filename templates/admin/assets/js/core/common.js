@@ -1,4 +1,4 @@
-var siteUrl = "https://israfly.coder.az/";
+var siteUrl = "http://autohub.me/";
 $(function() {
     
     $(".styled").uniform({

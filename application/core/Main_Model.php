@@ -33,7 +33,7 @@ class Main_Model extends CI_Model
      * If value is set as an array, there won't be any changes done to it (ie: no field of the table will be updated or inserted).
      */
     public $fillable = null;
-    
+
     /**
      * @var null|array
      * Sets protected fields.
@@ -127,7 +127,7 @@ class Main_Model extends CI_Model
         $this->before_update[]='add_updater';
         */
     }
-	
+
     /*
      * public function _get_rules($action=NULL)
      * This function returns the rules. If action is given and rules are
@@ -142,7 +142,7 @@ class Main_Model extends CI_Model
         return $this->rules;
     }
 
-    
+
 
     public function _prep_before_write($data)
     {
@@ -307,8 +307,8 @@ class Main_Model extends CI_Model
      * @return int/array Returns id/ids of inserted rows
      */
     public function insert($data = NULL,$table_name = FALSE)
-    {   
-        //insert data into table   
+    {
+        //insert data into table
         if($table_name){
             $this->_database->insert($table_name, $data);
             return true;
@@ -1865,30 +1865,30 @@ class Main_Model extends CI_Model
                    sprintf('While trying to figure out the table name, couldn\'t find an existing table named: <strong>"%s"</strong>.<br />You can set the table name in your model by defining the protected variable <strong>$table</strong>.',$this->table),
                    500,
                    sprintf('Error trying to figure out table name for model "%s"',get_class($this))
-               ); 
+               );
             }
         }
     	$this->_set_table_fillable_protected();
         return TRUE;
     }
-    
+
     private function _get_table_name($model_name)
     {
         $this->load->helper('inflector');
         $table_name = plural(preg_replace('/(_m|_model|_mdl|model)?$/', '', strtolower($model_name)));
         return $table_name;
     }
-    
+
     private function _set_table_fillable_protected()
     {
         if (is_null($this->fillable)) {
-            
+
             $table_fields = $this->_database->list_fields($this->table);
             foreach ($table_fields as $field) {
                 if (is_array($this->protected) && !in_array($field, $this->protected)) {
                     $this->fillable[] = $field;
                 }
-                
+
                 elseif(is_null($this->protected) && ($field !== $this->primary_key)) {
                     $this->fillable[] = $field;
                 }
@@ -2055,7 +2055,55 @@ class Main_Model extends CI_Model
 
 		return false;
     }
-    
+
+    public function get_row($select, $where, $sort = false, $limit = false, $trash = false)
+    {
+
+        $this->db->select($select);
+        $this->db->from($this->table);
+
+        if(isset($this->relation_tables) && !empty($this->relation_tables))
+        {
+            foreach ($this->relation_tables as $relation_table)
+            {
+                $this->db->join($relation_table['name'], $this->table.'.'.$this->primary_key.' = '.$relation_table['name'].'.'.$relation_table['column']);
+            }
+        }
+        $this->db->where($where);
+
+        if($trash)
+        {
+            $this->db->where('deleted_at !=', NULL);
+        }
+        else
+        {
+            $this->db->where('deleted_at', NULL);
+        }
+
+        if($limit)
+        {
+            $this->db->limit($limit['per_page'], ($limit['page']-1)*$limit['per_page']);
+        }
+
+        if($sort)
+        {
+            $this->db->order_by($sort['column'], $sort['order']);
+        }
+        else
+        {
+            $this->db->order_by('created_at', 'DESC');
+        }
+
+        $query = $this->db->get();
+
+        if($query->num_rows() > 0)
+        {
+            return $query->row_array();
+        }
+
+        return false;
+    }
+
     public function get_rows_count($where, $trash = false)
 	{
 		$this->db->select('COUNT(id) as count');
@@ -2081,7 +2129,7 @@ class Main_Model extends CI_Model
 		$row = $query->row();
 		return $row->count;
     }
-    
+
     public function remove($id)
 	{
 		$this->db->delete($this->table, [$this->primary_key => $id]);
@@ -2093,7 +2141,7 @@ class Main_Model extends CI_Model
 			}
 		}
     }
-    
+
     public function remove_all()
 	{
 		$this->db->where('deleted_at !=', NULL);
@@ -2117,7 +2165,7 @@ class Main_Model extends CI_Model
 			}
 		}
     }
-    
+
     public function insert_translation($data)
 	{
 		$this->db->insert($this->relation_tables[0]['name'], $data);

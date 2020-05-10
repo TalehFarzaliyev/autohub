@@ -65,27 +65,27 @@ class Blog extends Site_Controller {
 
 	public function category($slug = false)
 	{
-        //echo $slug; exit();
         if($slug)
         {
-            $segment_array = $this->uri->segment_array();
-            $this->data['title'] = translate('title');
-            $page = (ctype_digit(end($segment_array))) ? end($segment_array) : 1;
-            $category = $this->category->get_rows(['*'], ['status' => 1, 'lang_id' => $this->data['current_lang_id'], 'slug' => $slug], ['column' => 'created_at', 'order' => 'DESC']);
-            $this->data['category'] = ['name'=> $category[0]['name'],'slug'=>base_url('kateqoriya/'.$category[0]['slug'])];
-            $news_ids = $this->news->get_news_ids($category[0]['id']);
+            $segment_array          = $this->uri->segment_array();
+            $page                   = (ctype_digit(end($segment_array))) ? end($segment_array) : 1;
+            $category               = $this->category->get_row(['*'], ['status' => 1, 'lang_id' => $this->data['current_lang_id'], 'slug' => $slug],[]);
+            //echo $slug; die();
+            //echo '<pre>'; print_r($category); exit();
+
+            $this->data['category'] = ['name'=> $category['name'],'slug'=>base_url('kateqoriya/'.$category['slug'])];
+            $this->data['title']    = translate('title');
+            $news_ids               = $this->news->get_news_ids($category['id']);
             if(!empty($news_ids)) {
                 $news_id_text = '';
                 foreach ($news_ids as $item) {
                     $news_id_text .= $item['news_id'] . ',';
                 }
                 $news_id_text = rtrim($news_id_text, ',');
-
-
                 $rows = $this->news->getCategoryNews($news_id_text, $this->data['current_lang_id'], 12);
                 if ($rows) {
                     foreach ($rows as $row) {
-                        if (!empty($row['image']) && count($row['image']) != 0) {
+                        if (!empty($row['image'])) {
                             $image = $row['image'];
                             if (!$image) {
                                 $image = '/catalog/nophotonews.png';
@@ -95,12 +95,12 @@ class Blog extends Site_Controller {
                         }
 
                         $this->data['news_list'][] = [
-                            'name' => $row['name'],
+                            'name'      => $row['name'],
                             'name_text' => $row['name_text'],
-                            'slug' => base_url('xeber/' . $row['slug']),
+                            'slug'      => base_url('xeber/' . $row['slug']),
                             'desc_text' => $row['desc_text'],
-                            'created_at' => ($row['created_at'] == null) ? strftime("%e %b %G", strtotime($row['created_at'])) : strftime("%e %b %G", strtotime($row['created_at'])),       //date('d M Y', strtotime($row['created_at'])) : date('d M Y', strtotime($row['published_date'])),
-                            'image' => $image
+                            'created_at'=> ($row['created_at'] == null) ? strftime("%e %b %G", strtotime($row['created_at'])) : strftime("%e %b %G", strtotime($row['created_at'])),       //date('d M Y', strtotime($row['created_at'])) : date('d M Y', strtotime($row['published_date'])),
+                            'image'     => $image
                         ];
                     }
                 } else {
@@ -132,7 +132,7 @@ class Blog extends Site_Controller {
 				$images = $this->news->get_images($news[0]['id']);
 				$videos = $this->news->get_videos($news[0]['id']);
 				$this->data['news']['created_at'] = strftime("%e %b %G",strtotime($news[0]['created_at']));
-				$this->data['galleries'] = [];
+
 				if($images)
 				{
 					foreach($images as $image)

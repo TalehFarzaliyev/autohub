@@ -28,7 +28,8 @@
 	<script type="text/javascript" src="{base_url('templates/admin/assets/js/core/libraries/bootstrap.min.js')}"></script>
 	<script type="text/javascript" src="{base_url('templates/admin/assets/js/plugins/loaders/pace.min.js')}"></script>
 	<script type="text/javascript" src="{base_url('templates/admin/assets/js/plugins/loaders/blockui.min.js')}"></script>
-	<script type="text/javascript" src="{base_url('templates/admin/assets/js/ckeditor/ckeditor.js')}"></script>
+{*	<script type="text/javascript" src="{base_url('templates/admin/assets/js/ckeditor/ckeditor.js')}"></script>*}
+	<script src="https://cdn.ckeditor.com/4.14.0/full-all/ckeditor.js"></script>
 	<script type="text/javascript" src="{base_url('templates/admin/assets/js/plugins/pickers/anytime.min.js')}"></script>
 	<script type="text/javascript" src="{base_url('templates/admin/assets/js/plugins/ui/moment/moment.min.js')}"></script>
 	<script type="text/javascript" src="{base_url('templates/admin/assets/js/plugins/pickers/daterangepicker.js')}"></script>

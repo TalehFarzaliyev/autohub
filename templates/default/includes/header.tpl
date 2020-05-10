@@ -10,7 +10,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{$title}</title>
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{base_url('templates/default/assets/')}css/bootstrap.min.css">
     <!-- Scrollbar css -->

@@ -41,7 +41,7 @@
 		</div>
 	</div>
 	{/if}
-	{form_open_multipart('http://192.168.0.123/cms/admin/news/delete', 'class="form-horizontal" id="form-list"')}
+	{form_open_multipart(base_url('admin/news/delete'), 'class="form-horizontal" id="form-list"')}
 	{$table}
 	{form_close()}
 	<div class="panel-footer">
